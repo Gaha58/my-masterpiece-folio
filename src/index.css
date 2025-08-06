@@ -135,7 +135,13 @@
   }
 
   .portfolio-card {
-    @apply bg-gradient-to-br from-card via-secondary to-muted/50 backdrop-blur-sm border border-border/50 rounded-2xl p-8 shadow-elegant hover:shadow-primary transition-all duration-500 hover:scale-[1.02] hover:border-primary/30;
+    @apply bg-gradient-to-br from-card via-secondary to-muted/50 backdrop-blur-sm border border-border/50 rounded-2xl p-8 hover:scale-[1.02] hover:border-primary/30;
+    box-shadow: var(--shadow-elegant);
+    transition: all 0.5s ease;
+  }
+
+  .portfolio-card:hover {
+    box-shadow: var(--shadow-primary);
   }
 
   .portfolio-button-primary {
@@ -179,13 +185,5 @@
 
   .bg-portfolio-card {
     background: var(--gradient-card);
-  }
-
-  .shadow-portfolio {
-    box-shadow: var(--shadow-elegant);
-  }
-
-  .shadow-portfolio-glow {
-    box-shadow: var(--shadow-glow);
   }
 }
