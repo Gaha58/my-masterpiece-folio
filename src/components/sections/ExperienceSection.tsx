@@ -3,60 +3,52 @@ import { Building2, Calendar, MapPin } from "lucide-react";
 export const ExperienceSection = () => {
   const experiences = [
     {
-      company: "TechForward Solutions",
-      position: "Senior Full-Stack Developer",
-      location: "San Francisco, CA",
-      duration: "2022 - Present",
-      type: "Full-time",
+      company: "ZIM-TTECH",
+      position: "Data Engineer",
+      location: "14, NATAL ROAD",
+      duration: "2024 - Present",
+      type: "Contact",
       achievements: [
-        "Led development of microservices architecture serving 100K+ daily users",
-        "Implemented AI-powered features that increased user engagement by 40%",
-        "Mentored team of 5 junior developers and established code review processes",
-        "Reduced application load times by 60% through optimization initiatives"
+        "Collaborated on data pipeline development projects that streamlined data collection and processing within the organization. I utilized Java and Python to carry out various coding tasks, which enhanced the functionality and efficiency of existing data workflows.",
+        "Performed data analytics using Apache Hive, MySQL and Data Grip, where I created complex views within the data warehouse to support evidence-based decision-making. I also developed interactive data visualizations using Power BI, which provided stakeholders with clear and actionable insights. My work involved writing translators to translate data into the FHIR (Fast Healthcare Interoperability Resources) format to improve data exchange and interoperability across health systems.",
+        "Designed and implemented Data Quality Assessment (DQA) SQL queries for the Electronic Health Record (EHR) system deployed across over 700 health facilities. This integration of patient data and HIV test results led to a 30% reduction in data analysis turnaround time and ensured timely reporting to key stakeholders. I conducted in-depth exploratory data analysis (EDA) on patient records and HIV test results to uncover trends and anomalies, which contributed to the improvement in overall program performance."
       ],
-      technologies: ["React", "Node.js", "AWS", "Docker", "PostgreSQL", "Redis"]
+      technologies: ["React", "Spring-boot", "MYSQL", "Docker", "PostgreSQL", "Kubernetes", "Apache Hive","MongoDB", "FHIR", "Power BI","GIt", "Python", "Java" ]
     },
     {
-      company: "StartupVenture Inc.",
-      position: "Full-Stack Developer",
-      location: "Remote",
-      duration: "2020 - 2022",
-      type: "Full-time",
+      company: "Nestle ZIMbabwe.",
+      position: "Data Capture",
+      location: "Harare",
+      duration: "2022",
+      type: "Contract",
       achievements: [
-        "Built the entire MVP from scratch, scaling from 0 to 10K users",
-        "Designed and implemented real-time messaging system using WebSockets",
-        "Integrated payment processing with Stripe, handling $500K+ in transactions",
-        "Established CI/CD pipelines reducing deployment time by 80%"
+        "Successfully captured and consolidated data on Nestlé Zimbabwe coffee machines across the country. This included information on working machines, non-functional units, available repair parts, and machines requiring maintenance",
+        "created pivot tables to perform data analysis and generate insights from the captured information, helping to inform operational decisions."
       ],
-      technologies: ["Vue.js", "Express", "MongoDB", "Stripe", "Socket.io", "Heroku"]
+      technologies: ["Advanced Excel", "Google Sheets", "Data Analysis","Python"]
     },
     {
-      company: "Digital Agency Pro",
-      position: "Frontend Developer",
-      location: "New York, NY",
-      duration: "2019 - 2020",
-      type: "Full-time",
+      company: "Head Hunters International Consulting Company",
+      position: "Data Capture",
+      location: "Harare",
+      duration: "2023",
+      type: "Contract",
       achievements: [
-        "Developed responsive websites for 20+ clients across various industries",
-        "Improved website performance scores by average of 35% through optimization",
-        "Collaborated with design team to ensure pixel-perfect implementation",
-        "Introduced modern development workflows and component libraries"
+        "Contracted as a data capturer by Head Hunters International Consulting Company to input and organize survey data collected from ZESA Holdings",
+        "accurately capturing large volumes of data to support the analysis and reporting of survey results"
       ],
-      technologies: ["React", "Sass", "WordPress", "Figma", "Git", "Webpack"]
+      technologies: ["Advaced Excel", " Python", "Data Analysis"]
     },
     {
-      company: "Freelance Developer",
+      company: "Pesornal Projects",
       position: "Independent Contractor",
-      location: "Global",
-      duration: "2018 - 2019",
+      location: "Harare ",
+      duration: "2022 - Present",
       type: "Freelance",
       achievements: [
-        "Completed 15+ projects for clients ranging from startups to SMBs",
-        "Specialized in e-commerce solutions using Shopify and WooCommerce",
-        "Maintained 100% client satisfaction rating on freelancing platforms",
-        "Generated $75K+ in revenue through various digital solutions"
+        "Completed 5 projects for for personal growth with frontend and backend development, including a personal portfolio website, EHER system, and a data visualization dashboard, Book registration system",
       ],
-      technologies: ["JavaScript", "PHP", "MySQL", "Shopify", "WooCommerce", "CSS"]
+      technologies: ["Spring-boot", "React", "MySQL", "Node.js", "Python", "HTML", "Tailwind CSS", "Vite.js", "JavaScript","Git", "Docker"]
     }
   ];
 

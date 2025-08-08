@@ -11,18 +11,18 @@ export const Footer = () => {
         <div className="grid md:grid-cols-3 gap-8 items-center">
           {/* Brand */}
           <div className="text-center md:text-left">
-            <div className="text-2xl font-bold text-gradient mb-2">Alex Morgan</div>
+            <div className="text-2xl font-bold text-gradient mb-2">Promise Gaha</div>
             <p className="text-muted-foreground">
-              Full-Stack Developer & Tech Innovator
+              Systems Engineer & Tech Innovator
             </p>
           </div>
 
           {/* Copyright */}
           <div className="text-center">
             <p className="text-muted-foreground flex items-center justify-center space-x-1">
-              <span>© 2024 Made with</span>
-              <Heart size={16} className="text-red-500 animate-pulse" />
-              <span>by Alex Morgan</span>
+              <span>© 2025 Made </span>
+              {/* <Heart size={16} className="text-red-500 animate-pulse" /> */}
+              <span>by Promise Gaha</span>
             </p>
           </div>
 

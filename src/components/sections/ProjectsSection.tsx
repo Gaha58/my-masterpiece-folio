@@ -10,71 +10,66 @@ export const ProjectsSection = () => {
   const projects = [
     {
       id: 1,
-      title: "E-Commerce Platform",
+      title: "IMPILO-EHR",
       category: "Full-Stack Web App",
-      description: "A comprehensive e-commerce solution with advanced features including real-time inventory management, AI-powered recommendations, and seamless payment processing.",
+      description: "A comprehensive electronic medical record system designed for Zimbabwe.",
       image: ecommerceProject,
-      technologies: ["React", "Node.js", "PostgreSQL", "Stripe", "Redis", "Docker"],
+      technologies: ["React", "Node.js", "PostgreSQL", "Java Script", "Spring-Boot", "Docker","FHIR", "Kubernetes", "Apache Hive", "MongoDB", "Power BI", "Git", "Python", "Java"],
       features: [
-        "Real-time inventory tracking",
-        "AI-powered product recommendations", 
-        "Advanced search and filtering",
-        "Multi-vendor marketplace",
-        "Analytics dashboard",
-        "Mobile-responsive design"
+        "Real-time patient data management",
+        "Advanced search and filtering", 
+        "lims integration",
+        "Patient history tracking",
+        "Patient Summary Generation"
       ],
-      github: "https://github.com/alexmorgan/ecommerce-platform",
-      live: "https://ecommerce-demo.alexmorgan.dev",
+      github: "https://github.com/mohcc/impilo-ehr",
+      live: "https://ehr-demo.mohcc.dev",
       metrics: {
-        users: "10K+",
+        users: "700+",
         performance: "98%",
         uptime: "99.9%"
       }
     },
     {
       id: 2,
-      title: "AI Analytics Dashboard",
-      category: "AI/ML Application",
-      description: "An intelligent analytics platform that leverages machine learning to provide actionable insights from complex datasets with real-time visualization and predictive modeling.",
+      title: "Lift Up Initiative Analytics",
+      category: "Dashboard ",
+      description: "An intelligent analytics platform that  provides actionable insights from complex datasets with real-time visualization.",
       image: aiProject,
-      technologies: ["Python", "React", "TensorFlow", "D3.js", "FastAPI", "PostgreSQL"],
+      technologies: ["Python", "React", "TensorFlow", "PostgreSQL"],
       features: [
-        "Machine learning models",
         "Real-time data processing",
         "Interactive visualizations",
         "Predictive analytics",
-        "Custom reporting",
-        "API integrations"
+        "Custom reporting"
       ],
-      github: "https://github.com/alexmorgan/ai-analytics",
-      live: "https://analytics-demo.alexmorgan.dev",
+      github: "https://github.com/gaha/ai-analytics",
+      live: "https://analytics-demo.gaha.dev",
       metrics: {
-        accuracy: "94%",
+        accuracy: "95%",
         processing: "< 100ms",
-        insights: "500+"
+        sites: "500+"
       }
     },
     {
       id: 3,
-      title: "FinTech Mobile App",
-      category: "Mobile Application",
-      description: "A secure and intuitive mobile banking application with biometric authentication, real-time transactions, and advanced financial management tools.",
+      title: "Innovation Core",
+      category: "Web Application",
+      description: "A secure and intuitive  lims application for capturing orders,invoicing and billing.",
       image: mobileProject,
-      technologies: ["React Native", "Node.js", "MongoDB", "Auth0", "Plaid", "AWS"],
+      technologies: ["Vadin","MYSQL"],
       features: [
-        "Biometric authentication",
-        "Real-time transactions",
-        "Budget tracking",
-        "Investment portfolio",
-        "Bill management",
-        "Financial insights"
+        "Capturing Lims Orders",
+        "Invoicing and Billing",
+        "Generating Reports",
+        "Investment portfolio"
       ],
-      github: "https://github.com/alexmorgan/fintech-app",
-      live: "https://fintech-demo.alexmorgan.dev",
+      github: "https://github.com/gaha/innovation-core",
+      live: "https://gaha-demo.innovation.dev",
       metrics: {
-        downloads: "25K+",
-        rating: "4.8/5",
-        security: "Bank-grade"
+        users: "1",
+        performance: "98%",
+        security: "CSRF Protection"
       }
     }
   ];

@@ -5,13 +5,13 @@ export const AboutSection = () => {
   const highlights = [
     {
       icon: Code,
-      title: "5+ Years Experience",
-      description: "Building scalable web applications and digital solutions"
+      title: "2+ Years Experience",
+      description: "Analyzing Impilo EHR data,creating visualizatiions,writing FHIR translations, enhancing data pipeline"
     },
     {
       icon: Target,
-      title: "50+ Projects Delivered",
-      description: "From startups to enterprise-level applications"
+      title: "3 Projects Delivered",
+      description: "startups applications"
     },
     {
       icon: Lightbulb,
@@ -38,16 +38,16 @@ export const AboutSection = () => {
 
             <div className="space-y-6">
               <p className="portfolio-text text-xl">
-                I'm a passionate full-stack developer who thrives on creating innovative 
+                I'm a passionate Systems Engineer who thrives on creating innovative 
                 digital solutions that make a real impact. With a strong foundation in 
-                modern web technologies and a keen eye for user experience, I transform 
+                modern technologies and a keen eye for user experience, I transform 
                 complex ideas into elegant, scalable applications.
               </p>
 
               <p className="portfolio-text">
                 My journey in technology began with curiosity and has evolved into a 
-                mission to push the boundaries of what's possible. I specialize in 
-                React, Node.js, cloud architecture, and AI integration, always staying 
+                mission to push the boundaries of what's possible. I have hands on  experience in 
+                React, Node.js, MYSQL,Python,Java,FHIR and Data Engineering, always staying 
                 ahead of the curve to deliver cutting-edge solutions.
               </p>
 
@@ -91,7 +91,7 @@ export const AboutSection = () => {
               <div className="relative overflow-hidden rounded-3xl shadow-portfolio-glow">
                 <img 
                   src={profilePhoto}
-                  alt="Alex Morgan"
+                  alt="Promise Gaha"
                   className="w-full h-auto object-cover group-hover:scale-105 transition-transform duration-500"
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-background/20 to-transparent"></div>
@@ -105,15 +105,15 @@ export const AboutSection = () => {
             {/* Quick Stats */}
             <div className="grid grid-cols-3 gap-4">
               <div className="text-center portfolio-card">
-                <div className="text-3xl font-bold text-gradient mb-1">50+</div>
+                <div className="text-3xl font-bold text-gradient mb-1">3</div>
                 <div className="text-sm text-muted-foreground">Projects</div>
               </div>
               <div className="text-center portfolio-card">
-                <div className="text-3xl font-bold text-gradient mb-1">5+</div>
+                <div className="text-3xl font-bold text-gradient mb-1">2+</div>
                 <div className="text-sm text-muted-foreground">Years</div>
               </div>
               <div className="text-center portfolio-card">
-                <div className="text-3xl font-bold text-gradient mb-1">99%</div>
+                <div className="text-3xl font-bold text-gradient mb-1">98%</div>
                 <div className="text-sm text-muted-foreground">Success</div>
               </div>
             </div>

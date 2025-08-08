@@ -39,19 +39,19 @@ export const ContactSection = () => {
     {
       icon: Mail,
       label: "Email",
-      value: "alex@example.com",
-      href: "mailto:alex@example.com"
+      value: "gahapromise@gmail.com",
+      href: "mailto:gahapromise@gmail.com"
     },
     {
       icon: Phone,
       label: "Phone",
-      value: "+1 (555) 123-4567",
-      href: "tel:+15551234567"
+      value: "+263784401656",
+      href: "+263717170952"
     },
     {
       icon: MapPin,
       label: "Location",
-      value: "San Francisco, CA",
+      value: "Budiriro 3, Harare",
       href: "#"
     }
   ];
@@ -60,13 +60,13 @@ export const ContactSection = () => {
     {
       icon: Github,
       label: "GitHub",
-      href: "https://github.com",
+      href: "https://github.com/Gaha59",
       color: "hover:text-purple-400"
     },
     {
       icon: Linkedin,
       label: "LinkedIn",
-      href: "https://linkedin.com",
+      href: "https://www.linkedin.com/in/promise-gaha-983269289",
       color: "hover:text-blue-400"
     },
     {
@@ -168,7 +168,7 @@ export const ContactSection = () => {
                     value={formData.name}
                     onChange={handleInputChange}
                     className="w-full px-4 py-3 rounded-lg bg-secondary/30 border border-border/50 text-foreground placeholder-muted-foreground focus:border-primary focus:ring-2 focus:ring-primary/20 transition-all duration-300"
-                    placeholder="Your name"
+                    placeholder="your name"
                   />
                 </div>
                 <div className="space-y-2">
@@ -183,7 +183,7 @@ export const ContactSection = () => {
                     value={formData.email}
                     onChange={handleInputChange}
                     className="w-full px-4 py-3 rounded-lg bg-secondary/30 border border-border/50 text-foreground placeholder-muted-foreground focus:border-primary focus:ring-2 focus:ring-primary/20 transition-all duration-300"
-                    placeholder="your@email.com"
+                    placeholder="your email address"
                   />
                 </div>
               </div>

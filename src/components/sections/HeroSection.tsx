@@ -6,8 +6,8 @@ export const HeroSection = () => {
   const [displayText, setDisplayText] = useState("");
   const [currentIndex, setCurrentIndex] = useState(0);
   const titles = [
-    "Full-Stack Developer",
-    "AI Integration Specialist", 
+    "Data Scientist",
+    "Junior Developer", 
     "Tech Innovator",
     "Problem Solver"
   ];
@@ -61,7 +61,7 @@ export const HeroSection = () => {
           <div className="space-y-4">
             <h1 className="text-6xl sm:text-7xl lg:text-8xl font-bold">
               <span className="block text-foreground/90">Hi, I'm</span>
-              <span className="block text-gradient glow-text">Alex Morgan</span>
+              <span className="block text-gradient glow-text">Promise Gaha</span>
             </h1>
             
             {/* Dynamic subtitle */}
@@ -92,7 +92,7 @@ export const HeroSection = () => {
           {/* Social Links */}
           <div className="flex justify-center space-x-6 fade-in-delayed" style={{ animationDelay: '0.9s' }}>
             <a 
-              href="https://github.com" 
+              href="https://github.com/Gaha59" 
               target="_blank" 
               rel="noopener noreferrer"
               className="p-3 rounded-full bg-secondary/30 hover:bg-secondary text-foreground hover:text-primary transition-all duration-300 hover:scale-110 hover:shadow-primary"
@@ -100,7 +100,7 @@ export const HeroSection = () => {
               <Github size={24} />
             </a>
             <a 
-              href="https://linkedin.com" 
+              href="https://www.linkedin.com/in/promise-gaha-983269289" 
               target="_blank" 
               rel="noopener noreferrer"
               className="p-3 rounded-full bg-secondary/30 hover:bg-secondary text-foreground hover:text-primary transition-all duration-300 hover:scale-110 hover:shadow-primary"
@@ -108,7 +108,7 @@ export const HeroSection = () => {
               <Linkedin size={24} />
             </a>
             <a 
-              href="mailto:alex@example.com"
+              href="gahapromise@gmail.com"
               className="p-3 rounded-full bg-secondary/30 hover:bg-secondary text-foreground hover:text-primary transition-all duration-300 hover:scale-110 hover:shadow-primary"
             >
               <Mail size={24} />

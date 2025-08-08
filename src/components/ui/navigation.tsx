@@ -43,7 +43,7 @@ export const Navigation = () => {
             onClick={() => scrollToSection('home')}
             className="text-2xl font-bold text-gradient cursor-pointer hover:scale-105 transition-transform duration-300"
           >
-            AM
+            PG
           </div>
 
           {/* Desktop Menu */}

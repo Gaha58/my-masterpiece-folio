@@ -8,37 +8,35 @@ export const SkillsSection = () => {
       title: "Frontend Development",
       skills: [
         { name: "React/Next.js", level: 95, color: "from-blue-400 to-blue-600" },
-        { name: "TypeScript", level: 90, color: "from-blue-500 to-blue-700" },
+        { name: "HTML", level: 90, color: "from-blue-500 to-blue-700" },
         { name: "Tailwind CSS", level: 92, color: "from-cyan-400 to-cyan-600" },
-        { name: "Vue.js", level: 85, color: "from-green-400 to-green-600" },
         { name: "React Native", level: 80, color: "from-purple-400 to-purple-600" },
-        { name: "Three.js", level: 75, color: "from-yellow-400 to-yellow-600" }
+        { name: "Node.js", level: 75, color: "from-yellow-400 to-yellow-600" }
       ]
     },
     backend: {
       title: "Backend Development",
       skills: [
-        { name: "Node.js", level: 93, color: "from-green-400 to-green-600" },
+        { name: "Spring-boot", level: 93, color: "from-green-400 to-green-600" },
         { name: "Python", level: 88, color: "from-yellow-400 to-yellow-600" },
         { name: "PostgreSQL", level: 90, color: "from-blue-400 to-blue-600" },
         { name: "MongoDB", level: 85, color: "from-green-500 to-green-700" },
-        { name: "GraphQL", level: 82, color: "from-pink-400 to-pink-600" },
         { name: "Docker", level: 87, color: "from-blue-500 to-blue-700" }
       ]
     },
     cloud: {
-      title: "Cloud & DevOps",
+      title: "Data Engineering",
       skills: [
         { name: "AWS", level: 90, color: "from-orange-400 to-orange-600" },
         { name: "Vercel", level: 95, color: "from-gray-400 to-gray-600" },
         { name: "Firebase", level: 88, color: "from-yellow-400 to-yellow-600" },
         { name: "Kubernetes", level: 75, color: "from-blue-400 to-blue-600" },
-        { name: "CI/CD", level: 85, color: "from-purple-400 to-purple-600" },
+        { name: "Apache Hive", level: 80, color: "from-purple-400 to-purple-600" },
         { name: "Terraform", level: 70, color: "from-indigo-400 to-indigo-600" }
       ]
     },
     ai: {
-      title: "AI & Machine Learning",
+      title: "Machine Learning",
       skills: [
         { name: "OpenAI API", level: 92, color: "from-emerald-400 to-emerald-600" },
         { name: "LangChain", level: 88, color: "from-purple-400 to-purple-600" },
@@ -125,9 +123,8 @@ export const SkillsSection = () => {
           <h3 className="portfolio-subheading mb-8">Also Experienced With</h3>
           <div className="flex flex-wrap justify-center gap-3">
             {[
-              "Git & GitHub", "Figma", "Adobe Creative Suite", "REST APIs", "WebSockets",
-              "Redis", "Elasticsearch", "Stripe", "Auth0", "Supabase", "Prisma",
-              "Jest", "Cypress", "Webpack", "Vite", "ESLint", "Prettier"
+              "Git & GitHub", "Figma", "Database Management", "REST APIs", "WebSockets",
+              "Algorithms", "Elasticsearch", "Vite", "Agile Methodologies"
             ].map((tech) => (
               <span 
                 key={tech}
