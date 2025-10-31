@@ -5,7 +5,7 @@ import { componentTagger } from "lovable-tagger";
 import { ghPages } from "vite-plugin-gh-pages";
 
 export default defineConfig(({ mode }) => ({
-  base: "/your-repo-name/", // ⬅️ required for GitHub Pages
+  base: mode === "production" ? "/my-masterpiece-folio/" : "/",
   server: {
     host: "::",
     port: 8080,
@@ -13,7 +13,7 @@ export default defineConfig(({ mode }) => ({
   plugins: [
     react(),
     mode === "development" && componentTagger(),
-    mode === "production" && ghPages(), // ⬅️ Add this
+    mode === "production" && ghPages(),
   ].filter(Boolean),
   resolve: {
     alias: {
